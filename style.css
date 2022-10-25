@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Public+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.polygon{
+  background-image: linear-gradient(135deg,#F5F7FA, #B8C6DB 70%);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.aboutme{
+  background: -webkit-linear-gradient(45deg,#0038FF, #1bcfe7 60%);
+}
+
+.texture{
+  background: -webkit-linear-gradient(45deg,#0038FF, #1bcfe7 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.publicsans{
+  font-family: "Public Sans", sans-serif;
+  font-weight: 800;
+}
+
+.loading{
+  opacity: 1;
+  transform: translate(0, 0, 0);
+}
+
+/*
+[#080e24]
+*/
+
